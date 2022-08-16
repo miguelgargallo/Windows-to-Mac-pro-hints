@@ -18,13 +18,13 @@ Keyboard inputs
 
 Install brew / Instalar brew
 
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 Install node specific version / Instalar node versión especifica
 
-  nvm install v16.16
+    nvm install v16.16
 
-  nvm use v16.16
+    nvm use v16.16
 
 To install yarn / Instalar yarn
 
@@ -32,10 +32,10 @@ To install yarn / Instalar yarn
 
 Only put this on terminal / solo pon esto en la terminal
 
-  corepack enable
+    corepack enable
 
 Node.js <16.10
 
-  npm i -g corepack
+    npm i -g corepack
   
 Good luck and see you on twitter [Follow to support](https://twitter.com/miguelgargallo)
