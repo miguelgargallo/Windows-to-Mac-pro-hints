@@ -2,22 +2,21 @@ Install brew / Instalar brew
 
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-Install node specific version / Instalar node versión especifica
+Uninstall Node / Desinstala el Node que tengas
 
-  nvm install v16.16
+    brew uninstall --force node
+    
+    brew update
+    brew install nvm
 
-  nvm use v16.16
+nano ~/.profile
 
-To install yarn / Instalar yarn
+Instert / Inserta 
 
-  Node.js >=16.10
+    export NVM_DIR=~/.nvm
+    source $(brew --prefix nvm)/nvm.sh
 
-Only put this on terminal / solo pon esto en la terminal
+    nvm install 16.16
+    nvm use 16.16
+    nvm alias default 16.16
 
-  corepack enable
-
-Node.js <16.10
-
-  npm i -g corepack
-  
-Good luck and see you on twitter [Follow to support](https://twitter.com/miguelgargallo)
