@@ -1,4 +1,4 @@
-# windows-to-mac
+# windows-to-mac-pro-hints
 Windows to Mac professional hints!
 
 Change command to control
